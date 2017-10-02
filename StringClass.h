@@ -20,11 +20,8 @@ class String
 {
 private:
 
-	char *string[255];
-	//The name of the Character array and the amount of addresses in the array.
-
-
-
+	char *string[26];
+	//The name of the Character array and the amount of indexes in the array.
 
 
 public:
@@ -34,23 +31,21 @@ public:
 	
 	
 	
-	
 	String(const char*);
 	
 
-	
 	
 	void Length(int);
 	// Displays the length of the character array.
 	//The ability to query the string’s length, returning an integer
 
 
-	void UpperCase(char myArray[255]);	
+	void UpperCase(char myArray[26]);	
 	//The ability to convert the string to a duplicate containing all uppercase letters
 
 
 
-	void LowerCase(char myArray[255]);	
+	void LowerCase(char myArray[26]);	
 //The ability to convert the string to a duplicate containing all lowercase letters
 	
  

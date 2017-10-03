@@ -1,0 +1,7 @@
+﻿  StringClass.cpp
+c:\users\s178029\documents\visual studio 2015\projects\assement one\assement one\stringclass.cpp(29): warning C4353: nonstandard extension used: constant 0 as function expression.  Use '__noop' function intrinsic instead
+  String Class Main.cpp
+c:\users\s178029\documents\visual studio 2015\projects\assement one\assement one\string class main.cpp(8): error C3867: 'String::GetLength': non-standard syntax; use '&' to create a pointer to member
+c:\users\s178029\documents\visual studio 2015\projects\assement one\assement one\string class main.cpp(13): error C3867: 'String::UpperCase': non-standard syntax; use '&' to create a pointer to member
+  Generating Code...
+c:\users\s178029\documents\visual studio 2015\projects\assement one\assement one\stringclass.cpp(16): error C4700: uninitialized local variable 'i' used

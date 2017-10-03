@@ -41,9 +41,8 @@ public:
 //The varaible is of type char and has a derefernce pointer.
 //For this Constructor the derefernce pointer returns the value pf the varaible stored.
 
-	int mLength=50;
 	
-	void getLength(int Length);
+	int GetLength(int Length);
 //The ability to query the string’s length, returning an integer.
 //This function should return a varaible of type int.
 //The varaible it return is the length of string array.

@@ -1,0 +1,8 @@
+﻿  String Class Main.cpp
+  StringClass.cpp
+StringClass.cpp(26): warning C4353: nonstandard extension used: constant 0 as function expression.  Use '__noop' function intrinsic instead
+  Generating code
+  All 3 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Assement One.vcxproj -> C:\Users\s178029\documents\visual studio 2015\Projects\Assement One\x64\Release\Assessment One.exe
+  Assement One.vcxproj -> C:\Users\s178029\documents\visual studio 2015\Projects\Assement One\x64\Release\Assessment One.pdb (Full PDB)

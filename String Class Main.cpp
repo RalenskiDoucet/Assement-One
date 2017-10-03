@@ -1,8 +1,12 @@
 #include<iostream>
 #include "StringClass.h"
-#include "StringClass.cpp"
 
 int main()
 {
+	String *string1 = new String();
+	String string2;
+	string2.mLength;
 
+
+	system("pause");
 }

@@ -2,20 +2,26 @@
 
 String::String()
 {
+	mString = new char[255];
+}
+String::String(const char *string)
+{
+	mString = string;
+}
+void String::getLength(int Length)
+{
+	mLength=Length;
+}
+void String::UpperCase(char myArray[26])
+{
+
 }
 
-String::String(const char *)
+void String::LowerCase(char myArray[26])
 {
 }
 
-void String::Length(int)
+bool String::operator==(const String & other)
 {
-}
-
-void String::UpperCase(char myArray[255])
-{
-}
-
-void String::LowerCase(char myArray[255])
-{
+	return false();
 }

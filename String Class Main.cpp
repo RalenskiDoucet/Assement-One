@@ -3,17 +3,17 @@
 
 int main()
 {
-	String *string1 = new String();
-	String string2;
-	string2.GetLength;
-	String myArray[26];
-	char i = 65;
-	char j = 0;
-	do {
-		myArray[j].UpperCase;
-		i += 2;
-		j += 2;
-		if (i == 91) { i = 98; j = 1; }
-	} while (i != 125);
+	String String1 = String("Ralenski");
+	int len =String1.GetLength();
+	String String2 = String("Tommy");
+	 int len2 = String2.GetLength();
+	 String String3 = String("Johnny");
+	 int len3 = String3.GetLength();
+	 String String4 = String("Terence");
+	 int len4 = String4.GetLength();
+	 bool a = String1 == (String2);
+	 bool b = String1 == (String3);
+	 bool c = String1 == String1;
+
 	system("pause");
 } 

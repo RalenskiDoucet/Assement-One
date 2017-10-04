@@ -42,27 +42,27 @@ public:
 //For this Constructor the derefernce pointer returns the value pf the varaible stored.
 
 	
-	int GetLength(int Length);
+	int GetLength();
 //The ability to query the string’s length, returning an integer.
 //This function should return a varaible of type int.
 //The varaible it return is the length of string array.
 
 
 	
-	void UpperCase(char myArray[26]);	
+	String UpperCase();	
 //The ability to convert the string to a duplicate containing all uppercase letters.
 //To do this I have choosen to use an array where while i=65,i+=2.
 //I have also choosen to use a do while loop that will itter by 2.
 
 	
-	void LowerCase(char myArray[26]);	
+	String LowerCase();	
 //The ability to convert the string to a duplicate containing all lowercase letters.
 //To do this I have choosen to use an array where while myArray j=0,j+=2. 
 //I have also choosen to use a do while loop that will itter by2.
  
 
 	
-	bool operator==(const String& other);	
+	bool operator==(String& other);	
 //The ability to compare if the string is the same as another string class.
 //To do this I have choosen to use a bool to determin if the two different string are equal
 //To do this I have choosen to use an overloaded operator to compare two different strings.

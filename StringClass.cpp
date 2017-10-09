@@ -21,6 +21,7 @@ int String::GetLength()
 }
 String String::UpperCase()
 {
+
 	//If mString[i] is not capitalized , capitalize mString[i].
 	int i = 90, int j = 65;
 	if (mString[i] != 90)
@@ -37,15 +38,14 @@ String String::LowerCase()
 		do(j == i);
 			while (j != 65);
 	return LowerCase();
-}
+} 
 
 bool String::operator==(String &other)
-{	
+{	 
 	if (GetLength() != other.GetLength())
 		return false;
 	//Loop through the string
-	for (int i = 0; i < GetLength(); i++)
-	{
+	
 	//Compare each value to each other
 	//if not same character return falses
 		if (mString[i] != other.mString[i])
@@ -56,4 +56,4 @@ bool String::operator==(String &other)
 	//return true
 	return true;
 	
-}
+} 

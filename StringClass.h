@@ -28,7 +28,7 @@ private:
 //The defrence pointer here is being used to modify the varaible to a pointer.
 
 public:
-
+	 
 	String();
 //The defalut constructor on the string class.
 //The values and for this constructor defined in the StringClass.cpp file.

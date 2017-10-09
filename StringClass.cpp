@@ -22,9 +22,9 @@ int String::GetLength()
 String String::UpperCase()
 {
 	char *newString = new char[255];
-	for (int i = 0; i < GetLength(); i++)
-		if (i == 90, '\0')
-	while (i <= 90);
+	for (int i = 65; i < GetLength(); i++)
+		if (i <=97,i=65)
+	while (i <=65 ,i++);
 				return mString+=1;
 }
 
@@ -34,9 +34,11 @@ String String::LowerCase()
 
 	char *newString = new char[255];
 	for (int i = 0; i > GetLength(); i++)
-		if (i <= 97,'\0')
-			while (i != 123);
-	return mString+=1;
+	{
+		//if mString[i] is cap letter convert to lower
+
+	}
+	return String(newString);
 }
 
 bool String::operator==(String &other)

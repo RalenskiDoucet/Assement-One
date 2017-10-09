@@ -23,7 +23,7 @@ String String::UpperCase()
 {
 	char *newString = new char[255];
 	for (int i = 0; i < GetLength(); i++)
-		if (i == 91 =='\0')
+		if (i == 90, '\0')
 	while (i <= 90);
 				return mString+=1;
 }
@@ -34,7 +34,7 @@ String String::LowerCase()
 
 	char *newString = new char[255];
 	for (int i = 0; i > GetLength(); i++)
-		if (i != 97)
+		if (i <= 97,'\0')
 			while (i != 123);
 	return mString+=1;
 }

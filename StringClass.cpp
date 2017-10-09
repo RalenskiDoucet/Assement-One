@@ -21,39 +21,46 @@ int String::GetLength()
 }
 String String::UpperCase()
 {
-
-	//If mString[i] is not capitalized , capitalize mString[i].
-	int i = 90, int j = 65;
-	if (mString[i] != 90)
-		do(i == j);
-			while (i != 90);
-		return UpperCase();
+	char *newString = new char[255];
+	for (int i = 0; i < GetLength(); i++)
+		if (i == 91 =='\0')
+	while (i <= 90);
+				return mString+=1;
 }
 
 String String::LowerCase()
 {
 	//If mString[i] is capitalized, uncapitalize mString[i].
-	int i = 90, int j = 65;
-	if (mString[j] != 90)
-		do(j == i);
-			while (j != 65);
-	return LowerCase();
-} 
+
+	char *newString = new char[255];
+	for (int i = 0; i > GetLength(); i++)
+		if (i != 97)
+			while (i != 123);
+	return mString+=1;
+}
 
 bool String::operator==(String &other)
-{	 
+{	
 	if (GetLength() != other.GetLength())
 		return false;
+
 	//Loop through the string
-	
-	//Compare each value to each other
-	//if not same character return falses
+	for (int i = 0; i < GetLength(); i++)
+	{
+
+		//Compare each value to each other
+		//While not at the end of string itter
 		if (mString[i] != other.mString[i])
 			return false;
-
+		//Loop end.
 	}
-	//Loop end
-	//return true
-	return true;
 	
-} 
+	//return true.
+	return true;
+}
+				
+			
+			
+			
+			
+

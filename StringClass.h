@@ -32,7 +32,7 @@ public:
 	String();
 //The defalut constructor on the string class.
 //The values and for this constructor defined in the StringClass.cpp file.
-//The values the of this defalut constructor in definition will be of type char,int.
+//The values the of this defalut constructor in definition will be of type char.
 	
 	
 	
@@ -51,14 +51,14 @@ public:
 	
 	String UpperCase();	
 //The ability to convert the string to a duplicate containing all uppercase letters.
-//To do this I have choosen to use an array where while i=65,i+=2.
-//I have also choosen to use a do while loop that will itter by 2.
+//To do this I have choosen to use an array where while i=65,i++.
+//I have also choosen to use a do while loop that will itter .
 
 	
 	String LowerCase();	
 //The ability to convert the string to a duplicate containing all lowercase letters.
-//To do this I have choosen to use an array where while myArray j=0,j+=2. 
-//I have also choosen to use a do while loop that will itter by2.
+//To do this I have choosen to use an array where while myArray i=0,i++. 
+//I have also choosen to use a do while loop that will itter.
  
 
 	

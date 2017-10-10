@@ -105,9 +105,13 @@ String String::findSubString(String &other)
 	
 }
 
+String String::StringIndex()
+{
+	return String();
+}
+
 		
 			
 			
 			
 			
-

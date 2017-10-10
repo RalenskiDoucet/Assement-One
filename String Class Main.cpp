@@ -47,5 +47,9 @@ int main()
 
 	//This function Should ask the user for input to search for a string.
 	//This should also provide a value expressing the length of the string.
+	String FoundString1 = String1.findSubString(String2);
+	String FoundString2 = String2.findSubString(String3);
+	String FoundString3 = String3.findSubString(String4);
+	String FoundString4 = String4.findSubString(String1);
 	system("pause");
 }

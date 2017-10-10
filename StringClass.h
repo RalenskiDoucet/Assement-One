@@ -67,4 +67,13 @@ public:
 //To do this I have choosen to use a bool to determin if the two different string are equal
 //To do this I have choosen to use an overloaded operator to compare two different strings.
 
+ String	findSubString(String&other);
+//This function Should ask the user for input to search for a string.
+//This should also provide a value expressing the length of the string.
+//The second function should allow the user to have a input.
+
+
+ String StringIndex();
+
+
 };

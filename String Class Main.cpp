@@ -1,20 +1,24 @@
 #include<iostream>
 #include "StringClass.h"
+#include <fstream>
 
+namespace std{}
 int main()
 {
+	
 	// Creates new String Class Arrays. 
 	// Assigns Values to The Indexes of mString Array.
 	// The GetLength Function Gets the Length of the of Array.
 	// The GetLength Function Also Gets the Amount if Indexes in the Array.
-	String String1 = String("Ralenski");
+	String String1 = String("Ralenski0");
 	int len =String1.GetLength();
-	String String2 = String("Tommy");
+	String String2 = String("Tommy0");
 	int len2 = String2.GetLength();
-	String String3 = String("Johnny");
+	String String3 = String("Johnny0");
 	int len3 = String3.GetLength();
-	String String4 = String("Terrence");
+	String String4 = String("Terrence0");
 	int len4 = String4.GetLength();
+	
 	//Tests the bool fuction.
 	//Also Tests the Compare Function.
 	//If the bool Statement is True then True should be returned.
@@ -28,8 +32,15 @@ int main()
 		bool G = String3 == (String4);
 	//Tests the Uppercase Function.
 	//If LowerCase than UpperCase should be retured.
+		String temp =String1.UpperCase();
+		String temp =String2.UpperCase();
+		String temp =String3.UpperCase();
+		String temp =String4.UpperCase();
 	//Test the LowerCase Function.
 	//If UpperCase than LowerCase should be returned.
-		String1.UpperCase();
-		system("pause");
+		String temp =String1.LowerCase();
+		String temp =String2.LowerCase();
+		String temp =String3.LowerCase();
+		String temp =String4.LowerCase();
+	system("pause");
 } 

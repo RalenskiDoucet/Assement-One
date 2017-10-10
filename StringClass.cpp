@@ -21,13 +21,22 @@ int String::GetLength()
 }
 String String::UpperCase()
 {
+	//If mString[i] is uncapitalized, capitalize mString[i].	
 	char *newString = new char[255];
-	for (int i = 65; i < GetLength(); i++)
-		if (i <=97,i=65)
-	while (i <=65 ,i++);
-				return mString+=1;
+	for (int i = 0; i < GetLength(); i++)	
+	{
+		//If mString[i] is lower letter convert to cap.
+		if (mString[i] > 96 && mString[i] < 123)
+		{
+			newString[i] = mString[i] - 32;
+		}
+		else
+			newString[i] = mString[i];
+	}
+	newString[GetLength()] = '\0';
+	return String(newString);
 }
-
+	
 String String::LowerCase()
 {
 	//If mString[i] is capitalized, uncapitalize mString[i].
@@ -35,10 +44,19 @@ String String::LowerCase()
 	char *newString = new char[255];
 	for (int i = 0; i > GetLength(); i++)
 	{
-		//if mString[i] is cap letter convert to lower
 
+		//If mString[i] is cap letter convert to lower.
+		if (mString[i] > 65 & i < 91)
+		{
+			newString[i] = mString[i] + 32;
+		}
+		else
+		{
+			(newString[i] = mString[i]);
+		}
+		newString[GetLength()] = '\0';
+		return String(mString);
 	}
-	return String(newString);
 }
 
 bool String::operator==(String &other)

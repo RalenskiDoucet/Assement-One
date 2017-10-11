@@ -58,7 +58,7 @@ int main()
 	
 	//This function Should ask the user for input to search for a string.
 	//This should also provide a value expressing the length of the string.
-	String FoundString1 = temp0.findSubString(temp0);
+	String FoundString1 = temp0.findSubString(String1);
 	
 	//For the function GetIndex() .
 	//The contents that are in mString[i] should be returned

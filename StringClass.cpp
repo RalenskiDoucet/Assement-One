@@ -49,7 +49,7 @@ String String::LowerCase()
 	{
 
 		//If mString[i] is cap letter convert to lower.
-		if ((mString[i] > 65) & i < 91)
+		if (mString[i] > 65 & i < 91)
 		{
 			newString[i] = mString[i] + 32;
 		}
@@ -85,22 +85,10 @@ bool String::operator==(String &other)
 String String::findSubString(String &other)
 {
 	for (int i = 0; i < GetLength(); i++)
-
-		if (mString[i] == other.mString[0])
-		{
-			//Check rest of substring to see if it is in the current string instance
-			bool trueFalse = true;
-			if ( mString[i] == other.mString[i], i++)
-			{
-				mString[i] == other.mString[i];
-			}
-			else (mString[i] != other.mString[i], i++);
-			{
-				mString[i] != other.mString[i];
-			}
-		}
-			return false;
-	
+	{
+		i = i++;
+	}
+	return 0;
 }
 
 char String::GetIndex(char i)

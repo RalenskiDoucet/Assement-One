@@ -68,12 +68,13 @@ public:
 //To do this I have choosen to use an overloaded operator to compare two different strings.
 
  String	findSubString(String&other);
-//This function Should ask the user for input to search for a string.
+//This function Should  compare the lengths and contents of each index in the string.
+//And if all the contents of each index are equal to each other than the string should be returned.
 //This should also provide a value expressing the length of the string.
-//The second function should allow the user to have a input.
 
 
- String StringIndex();
-
-
+ char GetIndex(char i);
+ //This function should return the contents found in mString[i] 
+ //The index that was returned can be refered to as the length what was returned.
+ //Or the index that was returned can be refered to as what are the actual contents of tha index.
 };

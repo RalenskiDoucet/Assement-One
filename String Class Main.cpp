@@ -31,25 +31,35 @@ int main()
 	bool F = String2 == (String4);
 	bool G = String3 == (String4);
 	system("pause");
+	
 	//Tests the Uppercase Function.
-//If LowerCase than UpperCase should be retured.
+	//If LowerCase than UpperCase should be retured.
 	String temp0 = String1.UpperCase();
 	String temp1 = String2.UpperCase();
 	String temp2 = String3.UpperCase();
 	String temp3 = String4.UpperCase();
-
+	system("pause");
+	
 	//Test the LowerCase Function.
 	//If UpperCase than LowerCase should be returned.
 	String temp4 = String1.LowerCase();
 	String temp5 = String2.LowerCase();
 	String temp6 = String3.LowerCase();
 	String temp7 = String4.LowerCase();
-
+	system("pause");
+	
 	//This function Should ask the user for input to search for a string.
 	//This should also provide a value expressing the length of the string.
 	String FoundString1 = String1.findSubString(String2);
 	String FoundString2 = String2.findSubString(String3);
 	String FoundString3 = String3.findSubString(String4);
 	String FoundString4 = String4.findSubString(String1);
+	system("pause");
+	
+	//For the function GetIndex() .
+	//The contents that are in mString[i] should be returned
+	//The Index of the String can be refered to as either the length of the index that i was found at.
+	//Or it can be refered to as what is found 
+
 	system("pause");
 }

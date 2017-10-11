@@ -49,7 +49,7 @@ String String::LowerCase()
 	{
 
 		//If mString[i] is cap letter convert to lower.
-		if (mString[i] > 65 & i < 91)
+		if ((mString[i] > 65) & i < 91)
 		{
 			newString[i] = mString[i] + 32;
 		}
@@ -58,8 +58,8 @@ String String::LowerCase()
 			(newString[i] = mString[i]);
 		}
 		newString[GetLength()] = '\0';
-		return String(mString);
 	}
+	return String (mString);
 }
 
 bool String::operator==(String &other)
@@ -82,17 +82,15 @@ bool String::operator==(String &other)
 	return true;
 }
 
-
-
 String String::findSubString(String &other)
 {
 	for (int i = 0; i < GetLength(); i++)
-	
+
 		if (mString[i] == other.mString[0])
 		{
 			//Check rest of substring to see if it is in the current string instance
 			bool trueFalse = true;
-			if (mString[i] == other.mString[i], i++)
+			if ( mString[i] == other.mString[i], i++)
 			{
 				mString[i] == other.mString[i];
 			}
@@ -105,13 +103,19 @@ String String::findSubString(String &other)
 	
 }
 
-String String::StringIndex()
-{
-	return String();
-}
+char String::GetIndex(char i)
+{ //Check that char i = mString[i] .
+	i = mString[i];
+	for (mString[i]; GetLength(); i++)
+	
+	//if char i == mString[i] then do function GetLength.
+		if (i == mString[i],GetLength(),i++);
+	{
+		do mString[i], GetLength();
 
-		
-			
-			
-			
-			
+	//While i = mString[i] GetLength().
+		while (i=mString[i]);
+	}
+	//What should be returned is the contents of mString[i].
+	return i=(mString[i]);
+}

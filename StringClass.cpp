@@ -106,4 +106,4 @@ char String::GetIndex(char i)
 	}
 	//What should be returned is the contents of mString[i].
 	return i=(mString[i]);
-}
+} 

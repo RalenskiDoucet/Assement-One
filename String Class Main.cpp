@@ -64,6 +64,6 @@ int main()
 	//The contents that are in mString[i] should be returned
 	//The Index of the String can be refered to as either the length of the index that i was found at.
 	//Or it can be refered to as what is found at that index. 
-	
+	 
 	system("pause");
 }

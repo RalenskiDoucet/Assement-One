@@ -77,4 +77,4 @@ public:
  //This function should return the contents found in mString[i] 
  //The index that was returned can be refered to as the length what was returned.
  //Or the index that was returned can be refered to as what are the actual contents of tha index.
-};
+}; 

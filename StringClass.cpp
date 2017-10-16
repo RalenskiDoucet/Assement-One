@@ -83,27 +83,25 @@ bool String::operator==(String &other)
 }
 
 String String::findSubString(String &other)
+// This will compare a two string index by index to see if they are equal to each other.
+//For int i =0 do function getLength and itter over string.
+//While the strings are being itterated the function operator== to compare each index to evaluate bool to be ture or false.
+//If the bool is true the string will be returned.
 {
-	for (int i = 0; i < GetLength(); i++)
 	{
-		i = i++;
+		for (int i = 0; i == mString[i]; i++)
+			if (i != other.mString[i], i++)
+				bool(i == other.mString[i]);
+		return false;
 	}
-	return 0;
+	return mString;
 }  
 
-char String::GetIndex(char i)
-{ //Check that char i = mString[i] .
-	i = mString[i];
-	for (mString[i]; GetLength(); i++)
-	
-	//if char i == mString[i] then do function GetLength.
-		if (i == mString[i],GetLength(),i++);
-	{
-		do mString[i], GetLength();
-
-	//While i = mString[i] GetLength().
-		while (i=mString[i]);
-	}
-	//What should be returned is the contents of mString[i].
-	return i=(mString[i]);
+/*
+Should take in an integer as an argument
+then return the value stored at that index in the string
+*/
+char String::GetIndex(int index )
+{
+	return mString[index];
 } 

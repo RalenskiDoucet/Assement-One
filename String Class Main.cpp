@@ -1,6 +1,5 @@
 #include<iostream>
 #include "StringClass.h"
-#include <fstream>
 #include <string>
 
 int main()
@@ -58,12 +57,22 @@ int main()
 	
 	//This function Should ask the user for input to search for a string.
 	//This should also provide a value expressing the length of the string.
-	String FoundString1 = temp0.findSubString(String1); 
+
+
+
 	
 	//For the function GetIndex() .
 	//The contents that are in mString[i] should be returned
 	//The Index of the String can be refered to as either the length of the index that i was found at.
 	//Or it can be refered to as what is found at that index. 
+	String myNewString1 = String("Ralenski");
+	char a = myNewString1.GetIndex(2);
+	String myNewString2 = String("John");
+	 char b = myNewString2.GetIndex(3);
+	String myNewString3 =String("Carl");
+	 char c = myNewString3.GetIndex(2);
+	String myNewString4 = String("Tommy");
+	char d = myNewString4.GetIndex(4);
 	 
-	
+	system("pause");
 }

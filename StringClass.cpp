@@ -89,7 +89,7 @@ String String::findSubString(String &other)
 		i = i++;
 	}
 	return 0;
-}
+}  
 
 char String::GetIndex(char i)
 { //Check that char i = mString[i] .

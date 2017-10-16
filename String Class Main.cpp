@@ -54,16 +54,16 @@ int main()
 	int len11 = temp6.GetLength();
 	String temp7 = String4.LowerCase();
 	int len12 = temp7.GetLength();
-	system("pause");
+
 	
 	//This function Should ask the user for input to search for a string.
 	//This should also provide a value expressing the length of the string.
-	String FoundString1 = temp0.findSubString(String1);
+	String FoundString1 = temp0.findSubString(String1); 
 	
 	//For the function GetIndex() .
 	//The contents that are in mString[i] should be returned
 	//The Index of the String can be refered to as either the length of the index that i was found at.
 	//Or it can be refered to as what is found at that index. 
 	 
-	system("pause");
+	
 }

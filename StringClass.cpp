@@ -85,25 +85,27 @@ bool String::operator==(String &other)
 // This will compare two strings index by index to see if they are equal to each other.
 //While the strings are being itterated the function operator== to compare each index to evaluate bool to be ture or false.
 //If the bool is true the string will be returned.
-bool String::findSubString(String &other)
+bool String::findSubString(String &other, int index)
 {
-	for (int i = 0; i < GetLength(); i++)
+	if (other.GetLength() > GetLength())
+		return false;
+
+	for (int i = index; i < GetLength(); i++)
 	{
 		if (mString[i] == other.mString[0]) 
 		{
 			int curIter = i;
 			for (int j = 0; j < other.GetLength(); j++)
 			{
+				if (mString[curIter] != other.mString[j])
+					break;
+				if (mString[curIter] == other.mString[j] && j == other.GetLength() - 1)
+					return true;
 				curIter++;
-				if (mString[j] == other.mString[0])
-					mString[j]; j++;
-			}
-		
+			}		
 		}   
-		
-	}
-	
-	return true;
+	}	
+	return false;
 }
 
 

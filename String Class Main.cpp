@@ -55,14 +55,15 @@ int main()
 	//This function Should ask the user for input to search for a string.
 	//This should also provide a value expressing the length of the string.
 	String foundString = String("Ralenski");
-	bool FS1 = foundString==(String1);
+	bool test01 = foundString.findSubString(String("Ralenski"));
 	String foundString2 = String("James");
-	bool FS2 = foundString2==(String2);
+	bool test02 = foundString2.findSubString(String("James"));
 	String foundString3 = String("Corey");
-	bool FS3 = foundString3==(String3);
+	bool test03 = foundString3.findSubString(String("Corey"));
 	String foundString4 = String("Jerry");
-	bool FS4 = foundString4==(String4);
-	
+	bool test04 = foundString4.findSubString(String("Jerry"));
+
+
 	//For the function GetIndex() .
 	//The contents that are in mString[i] should be returned
 	//The Index of the String can be refered to as either the length of the index that i was found at.
@@ -76,4 +77,6 @@ int main()
 	String myNewString4 = String("Tommy");
 	char d = myNewString4.GetIndex(4);
 	 system("pause");
+
+	 std::string;
 }

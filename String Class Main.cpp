@@ -71,12 +71,12 @@ int main()
 	String myNewString1 = String("Ralenski");
 	char a = myNewString1.GetIndex(2);
 	String myNewString2 = String("John");
-	 char b = myNewString2.GetIndex(3);
-	String myNewString3 =String("Carl");
-	 char c = myNewString3.GetIndex(2);
+	char b = myNewString2.GetIndex(3);
+	String myNewString3 = String("Carl");
+	char c = myNewString3.GetIndex(2);
 	String myNewString4 = String("Tommy");
 	char d = myNewString4.GetIndex(4);
-	 system("pause");
+	system("pause");
 
-	 std::string;
+	std::string; std::cin>>(String)
 }

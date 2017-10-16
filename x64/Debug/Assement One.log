@@ -1,3 +1,2 @@
 ﻿  String Class Main.cpp
-  Assement One.vcxproj -> C:\Users\s178029\documents\visual studio 2015\Projects\Assement One\x64\Debug\Assessment One.exe
-  Assement One.vcxproj -> C:\Users\s178029\documents\visual studio 2015\Projects\Assement One\x64\Debug\Assessment One.pdb (Partial PDB)
+c:\users\s178029\documents\visual studio 2015\projects\assement one\assement one\string class main.cpp(82): error C2059: syntax error: '}'

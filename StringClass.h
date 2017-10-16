@@ -1,6 +1,7 @@
 #pragma once
 #include <string>
 
+
 	//The ability to access a character at a certain index within the string class
 
 	//The ability to append one string to another

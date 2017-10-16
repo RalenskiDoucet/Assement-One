@@ -1,7 +1,7 @@
 #include "StringClass.h"
 #include <iostream>
 #include<string>
-namespace std {}
+
 
 String::String()
 {
@@ -95,11 +95,15 @@ bool String::findSubString(String &other)
 			for (int j = 0; j < other.GetLength(); j++)
 			{
 				curIter++;
+				if (mString[j] == other.mString[0])
+					'\0';
 			}
-		}
+		
+		}   
 		
 	}
 	
+	return true;
 }
 
 

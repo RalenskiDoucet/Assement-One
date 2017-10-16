@@ -67,7 +67,7 @@ public:
 //To do this I have choosen to use a bool to determin if the two different string are equal
 //To do this I have choosen to use an overloaded operator to compare two different strings.
 
- String	findSubString(String&other);
+ bool String::findSubString(String&other);
 //This function Should  compare the lengths and contents of each index in the string.
 //And if all the contents of each index are equal to each other than the string should be returned.
 //This should also provide a value expressing the length of the string.

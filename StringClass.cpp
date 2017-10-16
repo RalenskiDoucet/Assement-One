@@ -82,20 +82,26 @@ bool String::operator==(String &other)
 	return true;
 }
 
-String String::findSubString(String &other)
-// This will compare a two string index by index to see if they are equal to each other.
-//For int i =0 do function getLength and itter over string.
+// This will compare two strings index by index to see if they are equal to each other.
 //While the strings are being itterated the function operator== to compare each index to evaluate bool to be ture or false.
 //If the bool is true the string will be returned.
+bool String::findSubString(String &other)
 {
+	for (int i = 0; i < GetLength(); i++)
 	{
-		for (int i = 0; i == mString[i]; i++)
-			if (i != other.mString[i], i++)
-				bool(i == other.mString[i]);
-		return false;
+		if (mString[i] == other.mString[0]) 
+		{
+			int curIter = i;
+			for (int j = 0; j < other.GetLength(); j++)
+			{
+				curIter++;
+			}
+		}
+		
 	}
-	return mString;
-}  
+	
+}
+
 
 /*
 Should take in an integer as an argument

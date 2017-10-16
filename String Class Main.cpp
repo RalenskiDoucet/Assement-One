@@ -9,7 +9,7 @@ int main()
 	// Assigns Values to The Indexes of mString Array.
 	// The GetLength Function Gets the Length of the of Array.
 	// The GetLength Function Also Gets the Amount if Indexes in the Array.
-	String String1 = String("Ralenski0");
+	String String1 = String("Ralenski");
 	int len = String1.GetLength();
 	String String2 = String("Tommy0");
 	int len2 = String2.GetLength();
@@ -17,7 +17,7 @@ int main()
 	int len3 = String3.GetLength();
 	String String4 = String("Terrence0");
 	int len4 = String4.GetLength();
-	system("pause");
+
 	//Tests the bool fuction.
 	//Also Tests the Compare Function.
 	//If the bool Statement is True then True should be returned.
@@ -29,7 +29,7 @@ int main()
 	bool E = String2 == (String3);
 	bool F = String2 == (String4);
 	bool G = String3 == (String4);
-	system("pause");
+
 	//Tests the Uppercase Function.
 	//If LowerCase than UpperCase should be retured.
 	String temp0 = String1.UpperCase();
@@ -40,7 +40,7 @@ int main()
 	int len7 = temp2.GetLength();
 	String temp3 = String4.UpperCase();
 	int len8 = temp3.GetLength();
-	system("pause");
+
 	//Test the LowerCase Function.
 	//If UpperCase than LowerCase should be returned.
 	String temp4 = String1.LowerCase();
@@ -51,18 +51,18 @@ int main()
 	int len11 = temp6.GetLength();
 	String temp7 = String4.LowerCase();
 	int len12 = temp7.GetLength();
-	system("pause");
+
 	//This function Should ask the user for input to search for a string.
 	//This should also provide a value expressing the length of the string.
 	String foundString = String("Ralenski");
-	int FS1=foundString.findSubString(String1);
+	bool FS1 = foundString==(String1);
 	String foundString2 = String("James");
-	int FS2 = foundString2.findSubString(String2);
+	bool FS2 = foundString2==(String2);
 	String foundString3 = String("Corey");
-	int FS3 = foundString3.findSubString(String3);
+	bool FS3 = foundString3==(String3);
 	String foundString4 = String("Jerry");
-	int FS4 = foundString4.findSubString(String4);
-	system("pause");
+	bool FS4 = foundString4==(String4);
+	
 	//For the function GetIndex() .
 	//The contents that are in mString[i] should be returned
 	//The Index of the String can be refered to as either the length of the index that i was found at.

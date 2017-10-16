@@ -96,7 +96,7 @@ bool String::findSubString(String &other)
 			{
 				curIter++;
 				if (mString[j] == other.mString[0])
-					'\0';
+					mString[j]; j++;
 			}
 		
 		}   

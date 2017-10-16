@@ -15,7 +15,7 @@ public:
 		mGrid = new char[9];
 		mNumOfRows = 5;
 		mNumOfCols = 5;
-		mGridSize = mNumOfCols * mNumOfRows;
+		mGridSize == mNumOfCols * mNumOfRows;
 		ClearPlayingBoard();
 	}
 

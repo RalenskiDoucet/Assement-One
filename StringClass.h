@@ -11,7 +11,6 @@
 	
 	//The ability to find a sub - string within the string class
 	//The ability to find a sub - string within the string class, starting from a certain index within the string
-	//The ability to replace a sub - string found within the string with a different sub - string
 	//The ability to set the string to an input C - style string
 
 

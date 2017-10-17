@@ -18,7 +18,7 @@
     <ClInclude Include="StringClass.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Wampus.h">
+    <ClInclude Include="PlayingBoard.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -27,6 +27,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="String Class Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayingBoard.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

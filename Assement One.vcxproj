@@ -111,10 +111,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="StringClass.h" />
-    <ClInclude Include="PlayingBoard.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="PlayingBoard.cpp" />
     <ClCompile Include="String Class Main.cpp" />
     <ClCompile Include="StringClass.cpp" />
   </ItemGroup>

@@ -60,8 +60,9 @@ int main()
 	String temp7 = String4.LowerCase();
 	int LowerCaseString4 = temp7.GetLength();
 
-	//This function Should ask the user for input to search for a string.
-	//This should also provide a value expressing the length of the string.
+	//This function Should compare the string to possible sub String and search for a substring.
+	//If an substring was found the bool should return true.
+	//If an substring was not found the bool should return false.
 	String foundString = String("Ralenski");
 	bool H = foundString.findSubString(String("alenski"));
 	String foundString2 = String("James");
@@ -81,8 +82,6 @@ int main()
 	char M = String2.GetIndex(4);
 	char N = String3.GetIndex(4);
 	char O = String4.GetIndex(6);
-	system("pause");
-
-
+	system("pause"); 
 	StringClass.close();
 }

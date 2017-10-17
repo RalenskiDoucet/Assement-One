@@ -1,5 +1,4 @@
-﻿  PlayingBoard.cpp
-c:\users\s178029\documents\visual studio 2015\projects\assement one\assement one\playingboard.cpp(8): warning C4554: '&': check operator precedence for possible error; use parentheses to clarify precedence
-c:\users\s178029\documents\visual studio 2015\projects\assement one\assement one\playingboard.cpp(8): warning C4552: '&': operator has no effect; expected operator with side-effect
+﻿  StringClass.cpp
+c:\users\s178029\documents\visual studio 2015\projects\assement one\assement one\stringclass.cpp(52): warning C4554: '&': check operator precedence for possible error; use parentheses to clarify precedence
   Assement One.vcxproj -> C:\Users\s178029\documents\visual studio 2015\Projects\Assement One\x64\Debug\Assessment One.exe
   Assement One.vcxproj -> C:\Users\s178029\documents\visual studio 2015\Projects\Assement One\x64\Debug\Assessment One.pdb (Partial PDB)

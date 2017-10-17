@@ -1,27 +1,35 @@
-#include<iostream>
+#include <iostream>
 #include "StringClass.h"
 #include <string>
+#include <fstream>
+
+
 
 int main()
 {
-
+	std::fstream StringClass;
+	StringClass.open("String.txt", std::ios_base::out | std::ios_base::in);
+	
 	// Creates new String Class Arrays. 
 	// Assigns Values to The Indexes of mString Array.
 	// The GetLength Function Gets the Length of the of Array.
-	// The GetLength Function Also Gets the Amount if Indexes in the Array.
+	//The Length of the String should be correctly displayed in locals window.
+	// The GetLength Function Also checks number of indexes in the Array.
 	String String1 = String("Ralenski");
 	int len = String1.GetLength();
-	String String2 = String("Tommy0");
+	String String2 = String("Tommy");
 	int len2 = String2.GetLength();
-	String String3 = String("Johnny0");
+	String String3 = String("Johnny");
 	int len3 = String3.GetLength();
-	String String4 = String("Terrence0");
+	String String4 = String("Terrence");
 	int len4 = String4.GetLength();
-
-	//Tests the bool fuction.
-	//Also Tests the Compare Function.
+	
+	//Tests the operator==.
+	//Also Compares String via Bool.
 	//If the bool Statement is True then True should be returned.
+	//For bool to be true the Strings Length must be the same.
 	//If the bool Statement is False then False should be returned.
+	//For the bool to be false the String Length must be unequal.
 	bool A = String1 == (String2);
 	bool B = String1 == (String3);
 	bool C = String1 == (String4);
@@ -29,54 +37,52 @@ int main()
 	bool E = String2 == (String3);
 	bool F = String2 == (String4);
 	bool G = String3 == (String4);
-
+	
 	//Tests the Uppercase Function.
 	//If LowerCase than UpperCase should be retured.
 	String temp0 = String1.UpperCase();
-	int len5 = temp0.GetLength();
+	int  UpperCaseString = temp0.GetLength();
 	String temp1 = String2.UpperCase();
-	int len6 = temp1.GetLength();
+	int UpperCaseString2 = temp1.GetLength();
 	String temp2 = String3.UpperCase();
-	int len7 = temp2.GetLength();
+	int UpperCaseString3 = temp2.GetLength();
 	String temp3 = String4.UpperCase();
-	int len8 = temp3.GetLength();
+	int UpperCaseString4 = temp3.GetLength();
 
 	//Test the LowerCase Function.
 	//If UpperCase than LowerCase should be returned.
 	String temp4 = String1.LowerCase();
-	int len9 = temp4.GetLength();
+	int LowerCaseString = temp4.GetLength();
 	String temp5 = String2.LowerCase();
-	int len10 = temp5.GetLength();
+	int LowerCaseString2 = temp5.GetLength();
 	String temp6 = String3.LowerCase();
-	int len11 = temp6.GetLength();
+	int LowerCaseString3 = temp6.GetLength();
 	String temp7 = String4.LowerCase();
-	int len12 = temp7.GetLength();
+	int LowerCaseString4 = temp7.GetLength();
 
 	//This function Should ask the user for input to search for a string.
 	//This should also provide a value expressing the length of the string.
 	String foundString = String("Ralenski");
-	bool test01 = foundString.findSubString(String("Ralenski"));
+	bool H = foundString.findSubString(String("alenski"));
 	String foundString2 = String("James");
-	bool test02 = foundString2.findSubString(String("James"));
+	bool I = foundString2.findSubString(String("maes"));
 	String foundString3 = String("Corey");
-	bool test03 = foundString3.findSubString(String("Corey"));
+	bool J = foundString3.findSubString(String("reoy"));
 	String foundString4 = String("Jerry");
-	bool test04 = foundString4.findSubString(String("Jerry"));
-
+	bool K = foundString4.findSubString(String("erry"));
+	
 
 	//For the function GetIndex() .
 	//The contents that are in mString[i] should be returned
 	//The Index of the String can be refered to as either the length of the index that i was found at.
 	//Or it can be refered to as what is found at that index. 
-	String myNewString1 = String("Ralenski");
-	char a = myNewString1.GetIndex(2);
-	String myNewString2 = String("John");
-	char b = myNewString2.GetIndex(3);
-	String myNewString3 = String("Carl");
-	char c = myNewString3.GetIndex(2);
-	String myNewString4 = String("Tommy");
-	char d = myNewString4.GetIndex(4);
+
+	char L = String1.GetIndex(7);
+	char M = String2.GetIndex(4);
+	char N = String3.GetIndex(4);
+	char O = String4.GetIndex(6);
 	system("pause");
 
-	std::string; std::cin>>(String)
+
+	StringClass.close();
 }
